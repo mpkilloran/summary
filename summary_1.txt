@@ -14,7 +14,6 @@ In late October 2015, it was decided that detection of mastitis pathogens in dai
 
 # PL-qPCR
 
-
 > Synthetic oligonucleotides mimicking the expected products of an isothermal amplification assay were successfully detected by qPCR by using the synthetic oligo as a primer for amplification in the reaction	
 	when paired with another downstream primer
 > The result indicates that qPCR can be used to detect DNA in a sequence-specific manner by linking its presence to qPCR	
@@ -36,23 +35,44 @@ In late October 2015, it was decided that detection of mastitis pathogens in dai
 > Increasing the primer concentration to 1000 nM each gave the highest signal and second highest amplification speed
 > The assay performed nearly equivalently across the annealing tempeature range tested, with similar overall intensity and amplification speed
 > SPRI beads were capable of purifying the oligonucleotide, although the yield was quite low except when using the isopropanol-based 'Small RNA' protocol, which resulted in nearly full recovery of the oligo
-
 > Recovery of oligo products from beads still around 10%
 > Despite high baseline and presumabely non-specific amplification of carry-over products, there was a clear increase in amplification at cycles where purified product oligo came up from baseline
 > This indicates that product oligo can be detected from within the non-specific carry over reaction products
+> Detection of products possible after pulldown with SPRI beads after they have been spiked into isothermal amplification reactions, the incorporation of Uracil residues into the primers did not seem	
+	to significantly change the outcome of the subsequent detection by qPCR after cleanup
+> Fluorescence intensity change lower for these assays, may be due to aging reagents (plasmid DNA, enzymes)
+> Amplification still occurred and there were some slight differences between 10k cp and NTC fro uracil-containing primers, the addition of UDG eliminated amplification indicating the primers were destroyed	
+> The treatment of the samples with UDG appeared to significantly reduce the overall background in the downstream qPCR assays, however it was not specific for reactions containing Uracil-incorporated primers	
+	suggesting there is another mechanism by which the reduction in non-specific signal is happening
 
-qPCR of RNA
+# qPCR of RNA
 > RNA samples amplified well, but 'no RT' controls show that there is significant DNA contamination in the RNA preps
 > On-column DNaseI digestion did not eliminate or reduce gDNA contamination in RNA preps
 > The Direct Zol kit and Phenol:Chloroform extraction did not eliminate gDNA contamination in RNA preps
 > DNase digestion after Trizol extraction and Qiagen Kit did not eliminate DNA contamination
+> Increasing the amount of Trizol reagent and DNase in the digestion appeared to provide better reduction of gDNA contamination
+> RNA concentration in reactions was too low, need to retest with more RNA
+> The total amount of RNA being isolated is too low, need to improve yields for downstream detection
+> Increasing the total amount of cells and also not vortexing Master Mix containing RT enzyme were the differences in this experiment, and the data indicate it was successful in isolation of RNA
+> There was very good reproducibility of within among RNA purifications, more variability among 'no RT' reactions, but this is likely non-specific amplification taking over
+> 16S RNA All assays showed good amplification down to 1000 cp gDNA, with several also detecting 100 cp easily.
+> Only the primer combination of 338.F/793.R performed poorly, showing too much non-specific amplification to continue using it
+> Based on nuc gene targeted primers, the RNA may have been unstable in storage, since there was no amplification with RNA but gDNA controls worked well	
+> The NTC reactions of the 16S targeted primers all showed melt curves similar to the +target wells, although +RT controls were significantly faster at amplfication, this could be due to either contamination,	
+	or non-specific amplification competing with specific amplification
+> The pre-rRNA targeted primers performed well and showed no non-spcific amplification in NTCs	
 
-Plating of Sa in milk after lysis
+# Plating of Sa in milk after lysis
 > Lysis buffer was sufficient for complete clearing of plates examining bacterial growth even at the highest concentration tested where the bacteria	
 	would be predicted to form a lawn
-	
-	
-	
-	
+
+# Nuclease assays with Sa
+> S. aureus thermostable nuclease activity was detected in samples after heat treatment using the increase in fluorescence of the molecular beacon	
+	after its degradation
+	> Detection of thermonuclease activity at earliest timepoints may be carryover from overnight culture being diluted into the day's 50 ml culture
+> The 90 minute timepoint supernatents dropped out in the experiment, there must have been mishandling of the samples prior to adding to the reaction
+> High baseline is typical for adding this much volume of TSB media
+> There was no detectable nuclease activity in the media after 4.75 hours of growth, ~7200 CFU/ml
+
 	
 	
