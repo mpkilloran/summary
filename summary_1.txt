@@ -17,58 +17,24 @@ Development of product-linked qPCR as a method began using synthetic oligonucleo
 Using mock NEAR assays after which specific product oligo was spiked in showed a very high level of amplification but little difference with reactions where synthetic product oligo was spiked in, likely that other products are interfering with qPCR detection.  The qPCR amplification reactions are start out at very high baseline, suggesting that carry-over of a significant fraction of ssDNA from the isothermal reaction that is not intended.	SPRI beads were capable of purifying the oligonucleotide product, although the yield was quite low except when using the isopropanol-based 'Small RNA' protocol, which resulted in about 10-20% of the oligo.  Despite high baseline and presumabely non-specific amplification of carry-over products, there was a clear increase in amplification at cycles where SPRI purified product oligo came up from baseline.  This indicates that product oligo can be detected from within the non-specific carry over reaction products after SPRI cleanup.  To improve detection of products after pulldown with SPRI beads after they have been spiked into isothermal amplification reactions, the incorporation of Uracil residues into the primers did not seem to significantly change the outcome of the subsequent detection by qPCR.  Amplification still occurred and there were some slight differences between 10k cp and NTC for uracil-containing primers, the addition of UDG eliminated amplification indicating the primers were destroyed.  The treatment of the samples with UDG appeared to significantly reduce the overall background in the downstream qPCR assays, however it was not specific for reactions containing Uracil-incorporated primers suggesting there is another mechanism by which the reduction in non-specific signal is happening.
 
 # qPCR of RNA
-> RNA samples amplified well, but 'no RT' controls show that there is significant DNA contamination in the RNA preps
-> On-column DNaseI digestion did not eliminate or reduce gDNA contamination in RNA preps
-> The Direct Zol kit and Phenol:Chloroform extraction did not eliminate gDNA contamination in RNA preps
-> DNase digestion after Trizol extraction and Qiagen Kit did not eliminate DNA contamination
-> Increasing the amount of Trizol reagent and DNase in the digestion appeared to provide better reduction of gDNA contamination
-> RNA concentration in reactions was too low, need to retest with more RNA
-> The total amount of RNA being isolated is too low, need to improve yields for downstream detection
-> Increasing the total amount of cells and also not vortexing Master Mix containing RT enzyme were the differences in this experiment, and the data indicate it was successful in isolation of RNA
-Several of the qPCR primer combinations are suitable for further development with the 285.F/359.R combination the best by amplification speed and intensity
-> The gDNA may be too old and performance suffering
-> There was a clear difference in gDNA lots, as the older 7/17 lot performed ~10-fold lower in amplification than the newer 11/4 lot
-> Increasing the primer concentration to 1000 nM each gave the highest signal and second highest amplification speed
-> The assay performed nearly equivalently across the annealing tempeature range tested, with similar overall intensity and amplification speed
-> There was very good reproducibility of within among RNA purifications, more variability among 'no RT' reactions, but this is likely non-specific amplification taking over
-> 16S RNA All assays showed good amplification down to 1000 cp gDNA, with several also detecting 100 cp easily.
-> Only the primer combination of 338.F/793.R performed poorly, showing too much non-specific amplification to continue using it
-> Based on nuc gene targeted primers, the RNA may have been unstable in storage, since there was no amplification with RNA but gDNA controls worked well	
-> The NTC reactions of the 16S targeted primers all showed melt curves similar to the +target wells, although +RT controls were significantly faster at amplfication, this could be due to either contamination,	
-	or non-specific amplification competing with specific amplification
-> The pre-rRNA targeted primers performed well and showed no non-spcific amplification in NTCs	
 
-> Isolation of RNA and DNA fractions from cells were successful
-> Yields from purification were likely improved due to Lysostaphin treatment
-> The lack of Proteinase K treatment of the gDNA in DNA #2 did not appear to impact its amplification in qPCR and may not be necessary
-> Use of 2-3 ul of 20 mg/ml glycogen instead of 1 ul definitely improved the ability to see the pellet during precipitation
+Initial attempts at purifying RNA from S. aureus in the lab utilized the Qiagen RNA kit.  Using RT-qPCR as the method for quality/quantity measurement of the RNA isolation protocol, RNA samples amplified well, but 'no RT' controls show that there is significant DNA contamination in the RNA preps.  On-column DNaseI digestion did not eliminate or reduce gDNA contamination in the RNA preps.  Both the Direct Zol kit and Phenol:Chloroform extraction also did not eliminate gDNA contamination in RNA preps.  DNase digestion after Trizol extraction and Qiagen Kit also did not eliminate DNA contamination.  Increasing the amount of Trizol reagent relative to input cells and concentration of DNase in the digestion appeared to provide better reduction of gDNA contamination.  Initial RNA concentrations/yields in reactions was too low, the protocol was optimized with a greater number of cells.  Increasing the total amount of cells and also not vortexing Master Mix containing RT enzyme in RT-qPCR were the differences in this experiment, and the data indicate it was successful in isolation and robust amplification of RNA.  Isolation of RNA and DNA fractions from the same cells was also successful.  Yields from purification were improved by incorporating Lysostaphin treatment, and it was shown that Proteinase K treatment did not significantly increase yields.
 
-> PMA crosslinking did not effect RNA amplification in live cells, but appeared to significantly reduce amplification of the nuc mRNA from dead cells (heat treated)
-> PMA crosslinking had a noticeable effect on gDNA amplification in live vs. dead cells
-> There was a slight decrease in gDNA from live cells after PMA crosslinking that may  have been due to stable gDNA from dead cells in non-heat treated (live) cultures that carried through
-> Since the amount of input DNA/RNA was not normalized across samples only qualitative comparisons can be made relative to the gDNA standards
+Several of the qPCR primer combinations were screened and determined to be suitable for detection with the MK.qPCR.285.F/359.R combination the best by amplification speed and intensity.  Ongoing quality control of the lab and personal gDNA lots showed that there was a clear difference in gDNA lots, as the older 7/17/15 lot performed ~10-fold lower in amplification than the newer 11/4/15 lot.  Additional optimizations included increasing the primer concentration to 1000 nM each gave the highest signal and second highest amplification speed.  The assay performed nearly equivalently across the annealing tempeature range tested, with similar overall intensity and amplification speed.  There was very good reproducibility of within among RNA purifications, more variability among 'no RT' reactions, but this is likely non-specific amplification taking over.  Based on nuc gene mRNA targeted primers, the RNA lots are unstable in long-term -20C storage, since there was no amplification with RNA after a week but gDNA controls worked well.  Development of multiple 16S RNA assays as an alternative showed good amplification down to 1000 cp gDNA, with several also detecting 100 cp easily.  The pre-rRNA targeted primers performed well and showed no non-specific amplification in NTCs.  
 
-> Standardizing the amount of input DNA in the sample allowed for a more quantitative comparison among treatments
-> The PMA crosslinking was effective in reducing amplification of the dead cells but had relatively small effects on the live cells by comparison
-
-> The PMA crosslinking appears to reduce amplification of dead cell RNA specifically without any effect on live cell RNA
-> THe non-PMA treated dead cell RNA was still intact, suggesting it is not unstable throughout the extraction and crosslinking process
-
-> Standardizing the amount of input DNA in the sample allowed for a more quantitative comparison among treatments
-> The PMA crosslinking was effective in reducing amplification of the dead cells but had relatively small effects on the live cells by comparison
-
-> There appeared to be a delay in the amplification of Dead, -PMA samples, although there might have been a mixup in Sample #3 and #4 during setup so this cannot be definitive
-> The RNA has been freezed thawed twice so a third assay may give a less than optimal result, it may be necessary to isolate new RNA/DNA samples from PMA crosslinked cells
-
-> Note: there was not enough reverse transcriptase for the master mix, so the RT step may have been less efficient than usual
-> There was no distinction between live and dead cell RNA amplification, indicated that heat treatment and "holding" at 37C for 1 hour afterwards did not significantly destabilize the RNA
-> There was an unexpected lack of amplification of -PMA samples, which is not due to the sample heating or extraction, but may be an artifact of treatment and crosslinking protocol
-
-> Dead cells showed a PMA-dependent lag in amplification when normalized for input DNA concentration
-> The Live, +PMA cells showed no amplification at all, but without PMA amplified normally, suggesting there was something about the PMA crosslinking after the 37C 1 hour hold that was detremental to the sample
-
-> Nuclease treatment of extracts showed that the DNA was not significantly impacted but
+Once a validation method for DNA and RNA extractions were optimized and qPCR assays developed an approach was needed to detect whether the purified nucleic acids were indicative of live or dead cells status.  PMA crosslinking was used as a commercially available method for validating the approach with pure S. aureus cultures.  PMA crosslinking did not significantly effect RNA amplification in live cells, but appeared to reduce amplification of the nuc mRNA from dead cells that had been heat treated.  PMA crosslinking had a noticeable effect on gDNA amplification in live vs. dead cells.  There was a slight decrease in gDNA from live cells after PMA crosslinking that may  have been due to stable gDNA from dead cells in non-heat treated (live) cultures that carried through.  By standardizing the amount of input DNA in the sample allowed for a more quantitative comparison among treatments.  The PMA crosslinking was effective in reducing amplification of the dead cells but had relatively small effects on the live cells by comparison.  The PMA crosslinking appears to reduce amplification of dead cell RNA specifically without any effect on live cell RNA.  The non-PMA treated dead cell RNA was still intact, suggesting it is not unstable throughout the extraction and crosslinking process.  There was no distinction between live and dead cell RNA amplification, indicated that heat treatment and "holding" at 37C for 1 hour afterwards did not significantly destabilize the RNA.  There was an unexpected lack of amplification of -PMA samples, which is not due to the sample heating or extraction, but may be an artifact of treatment and crosslinking protocol.  Dead cells showed a PMA-dependent lag in amplification when normalized for input DNA concentration.  The Live, +PMA cells showed no amplification at all, but without PMA amplified normally, suggesting there was something about the PMA crosslinking after the 37C 1 hour hold that was detremental to the sample.  Nuclease treatment of extracts showed that the DNA was not significantly impacted but
 it destabilized RNA in a rapid fashion and may have a larger impact if optimized
+
+
+
+
+
+
+
+
+
+
+
 
 
 # Plating of Sa in milk after lysis
