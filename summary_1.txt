@@ -62,6 +62,39 @@ In late October 2015, it was decided that detection of mastitis pathogens in dai
 	or non-specific amplification competing with specific amplification
 > The pre-rRNA targeted primers performed well and showed no non-spcific amplification in NTCs	
 
+> Isolation of RNA and DNA fractions from cells were successful
+> Yields from purification were likely improved due to Lysostaphin treatment
+> The lack of Proteinase K treatment of the gDNA in DNA #2 did not appear to impact its amplification in qPCR and may not be necessary
+> Use of 2-3 ul of 20 mg/ml glycogen instead of 1 ul definitely improved the ability to see the pellet during precipitation
+
+> PMA crosslinking did not effect RNA amplification in live cells, but appeared to significantly reduce amplification of the nuc mRNA from dead cells (heat treated)
+> PMA crosslinking had a noticeable effect on gDNA amplification in live vs. dead cells
+> There was a slight decrease in gDNA from live cells after PMA crosslinking that may  have been due to stable gDNA from dead cells in non-heat treated (live) cultures that carried through
+> Since the amount of input DNA/RNA was not normalized across samples only qualitative comparisons can be made relative to the gDNA standards
+
+> Standardizing the amount of input DNA in the sample allowed for a more quantitative comparison among treatments
+> The PMA crosslinking was effective in reducing amplification of the dead cells but had relatively small effects on the live cells by comparison
+
+> The PMA crosslinking appears to reduce amplification of dead cell RNA specifically without any effect on live cell RNA
+> THe non-PMA treated dead cell RNA was still intact, suggesting it is not unstable throughout the extraction and crosslinking process
+
+> Standardizing the amount of input DNA in the sample allowed for a more quantitative comparison among treatments
+> The PMA crosslinking was effective in reducing amplification of the dead cells but had relatively small effects on the live cells by comparison
+
+> There appeared to be a delay in the amplification of Dead, -PMA samples, although there might have been a mixup in Sample #3 and #4 during setup so this cannot be definitive
+> The RNA has been freezed thawed twice so a third assay may give a less than optimal result, it may be necessary to isolate new RNA/DNA samples from PMA crosslinked cells
+
+> Note: there was not enough reverse transcriptase for the master mix, so the RT step may have been less efficient than usual
+> There was no distinction between live and dead cell RNA amplification, indicated that heat treatment and "holding" at 37C for 1 hour afterwards did not significantly destabilize the RNA
+> There was an unexpected lack of amplification of -PMA samples, which is not due to the sample heating or extraction, but may be an artifact of treatment and crosslinking protocol
+
+> Dead cells showed a PMA-dependent lag in amplification when normalized for input DNA concentration
+> The Live, +PMA cells showed no amplification at all, but without PMA amplified normally, suggesting there was something about the PMA crosslinking after the 37C 1 hour hold that was detremental to the sample
+
+> Nuclease treatment of extracts showed that the DNA was not significantly impacted but
+it destabilized RNA in a rapid fashion and may have a larger impact if optimized
+
+
 # Plating of Sa in milk after lysis
 > Lysis buffer was sufficient for complete clearing of plates examining bacterial growth even at the highest concentration tested where the bacteria	
 	would be predicted to form a lawn
@@ -73,6 +106,61 @@ In late October 2015, it was decided that detection of mastitis pathogens in dai
 > The 90 minute timepoint supernatents dropped out in the experiment, there must have been mishandling of the samples prior to adding to the reaction
 > High baseline is typical for adding this much volume of TSB media
 > There was no detectable nuclease activity in the media after 4.75 hours of growth, ~7200 CFU/ml
+> Extracts from higher concentration cultures resulted in detectable thermostable nuclease activity, but lack of clear colony counts makes LOD impossible to estimate
+> Nuclease activity was detectable after 30 minutes, however, there is no negative control to ensure that nuclease activity was not transferred during inoculation (even though cells were washed 1X)
+> The limit of detection for the assay is around 1 x 10^7 based on correlating plating results with nuclease activity from the sample
+	
+# Cascade amplification
 
-	
-	
+> A 10:000 dilution of NEB Bst Polymerase at 120U/ul was suitable for activity measurement over the 45 min timecourse
+> 100 nM of FAM labeled oligo and at least 80 nM Quencher oligo were sufficient for assay measurements
+> Addition of excess F2 oligo does not prevent R1.Primer.1 from "switching" strands to extend on the FAM/BHQ substrate, but does slow it down and prevent it reaching full fluorescence	
+	This may be due to an equillibrium being reached between accessible R1.Primer.1 for extension vs that which is hybridized to F2
+> Addition of a trigger oligo R2.Primer.1 increased endpoint fluorescence, presumably by allowing for more R1.Primer.1 to be displaced from F2 to disrupt hyb equillibrium	
+> Introducing mismatches into the trigger oligoss R2.Primer.2-4 reduced that effect until a large nubmer of mismatches eliminated it, perhaps preventing extension from the trigger oligo and creating a'	
+	situation where equillibrium between F2 and R1.Primer.1  was the main driver, similar to Reaction #4
+> There was no signal in reactions lacking R1.Primer.1 indicated that F2 or its triggers are not sufficient for separating the FAM/BHQ oligo substrate	
+
+> ALl mismatch oligos eliminated polymerase extension to a significant extent
+> Mismatch oligo R1.6 appeared to give a very slight amount of activity, suggesting that 5' mismatches still allow for some polymerase extension possibly
+> Single mismatch oligos at the 3'end were sufficient to eliminate measurable acitivty
+> There was very low activity in the assay, possible causes include no DTT in reaction buffer, vortexing of polymerase
+
+# LAMP on Chip
+> There appeared to be little or no amplificaiton of the LAMP assays on the chip, with both negative and positive controls showing equivalent background	
+	fluorescence to the assay-containing wells
+> The lack of amplification on chip may be due to the long dry time necessary for the 2 ul reaction volume (60 minutes)	
+> The assays showed a fluorescence signal in the real-time thermal cycler, although there was not enough Master Mix volume to perform necessary controls	
+	lacking genomic DNA to determine if amplification signal was specific to the target DNA
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
