@@ -1,30 +1,10 @@
 # Salmonella 
 
-The Twist Salmonella RPA kit was used to detect purified S. Typhimurium gDNA to determine the limit of detection on a real-time thermal cycler.  IT was able to detect 1000 cp of gDNA per reaction but not as low as 100 copy per reaction.
-Testing of different gDNA lots showed they performed similarly in RPA assays, with amplification coming off baseline at the same cycle number and saturating at the same cycle
+The Twist Salmonella RPA kit was used to detect purified S. Typhimurium gDNA to determine the limit of detection on a real-time thermal cycler.  It was able to detect 1000 cp of gDNA per reaction but not as low as 100 copy per reaction.  Testing of different gDNA lots showed they performed similarly in RPA assays, with amplification coming off baseline at the same cycle number and saturating at the same cycle.  RPA reactions were successful in detecting gDNA after the complete workflow of pure liquid culture cell lysis and capture by silica beads, although there seemed to be some losses in overall yield of gDNA from the protocol.  When comparing the RPA reactions in microplate to those on QuickChip, the plate assays showed successful amplification, although signals were lower as the reagents have aged at the time of the experiment.  There was no detectable signal on the QuickChip for the RPA assays.  Opinions changed about RPA as the amplification chemistry for the QuickChip project and it was not pursued further.
 
-> RPA reactions were successful in detecting genomic DNA after the complete workflow of liquid culture cell lysis and capture by silica beads
-> There seemed to be only minor losses in overall yield of gDNA from the protocol
-> RPA reactions in microplate showed successful amplification, although signals were lower as the reagents have aged.  There was no detectable	
-	signal on the QuickChip for the assay
-> Still unable to get RPA Salmonella assay working on-chip, however there was no positive control that I've used so far for RPA on-chip in my	
-	hands, so there may be more success in attempting different methods of chip assembly
-NEAR
-> NEAR - There was little/no difference between NTC and reactions containing 10k copies of gDNA, with polymerase concentrations around 16 units for this lot ideal
-> NEAR - The reactions did not amplify normally, perhaps due to the new high conentration Bst Polymerase being used
-> NEAR - Ideal polymerase concentrations for this lot appear to be lower than determined in previous experiment, the ideal seems to be about 10-12 units	
-	per reaction
-> NEAR - Amplification looks suitable for screening, no difference between NTC and 10,000 cp gDNA observed for any of the reactions
-> NEAR - > No differences were observed for assays between NTC and 10,000 cp gDNA reactions, regardless of the skewing attempted
-> NEAR -  sybr green No differences were observed for reactions between NTC and 10,000 cp gDNA presence
-> NEAR - with beacon > There was no detectable difference between NTC and 10,000 cp gDNA reactions using molecular beacon detection
+As another amplification chemistry, the feasibility of developing NEAR assays was tested.  NEAR assays were designed targeting several different genes in Salmonella using bioinformatics approaches.  Attempting to use SYBR green for detection of the ssDNA products of the assay showed there was little/no difference between NTC and reactions containing 10,000 copies of gDNA.  Adjustments to polymerase concentrations to a slower/more ideal amplification speed still showed no difference between NTC and 10k copies.  Skewing of primer concentrations for several different assays again showed no differences by SYBR green detection with controls.  Use of non-optimized molecular beacons also showed no detectable fluorescence for the assays.  As a controls for the input gDNA to all assays, qPCR assays were developed and used to compare lots purified Salmonella gDNA.  The different lots performed equivalently, indicated that failure of RPA reactions was likely caused by degradation of the RPA reagents over time, as observed for equivalent controls documented during development.  
 
-qPCR
-> Concerns over gDNA quality from RPA reactions have not been confirmed here, since the gDNA appears to be detected equivalently between different lots of gDNA
-> Likely cause of RPA reaction failure are due to instability of the RPA reactions themselves degrading over time
-> The retest confirms the equivalent performance of the gDNA lots by qPCR performance
-> Specific amplification was observed down to 80 nM of the depleted primer in this experiment
-> Note: Contamination in 'no gDNA' controls likely due to cross contamination from using same primer dilution to add in 2nd primer to reaction well
+Opinions changed in mid-October 2015 about developing assays for Salmonella and there assays, reagents, and testing was not pursued further.  
 
 
 	
