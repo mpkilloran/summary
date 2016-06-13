@@ -12,38 +12,9 @@ Opinions changed in mid-October 2015 about developing assays for Salmonella and 
 
 In late October 2015, it was decided that detection of mastitis pathogens in dairy cattle was again the most valuable business model.  It was determined that potential customers needed to be able to distinguish between live and dead pathogen organisms in order to have a viable product, and that the development of a new technology for live vs. dead detection was the top priority.  In order to overcome the limitations of developing NEAR assays without a mass spectrometer, I worked on developing a method for detection of small ssDNA products from reactions during assay development called product-linked qPCR (PL-qPCR).  The method relies on using the small ssDNA products as primers for qPCR, in order to link the successful amplification by NEAR to a detection by qPCR.  In addition, methods in the laboratory for the extraction and quantitation of DNA and RNA from the organisms of interest were established, in order to support efforts for live vs. dead distinction from pure cultures.  
 
-# PL-qPCR
+Development of product-linked qPCR as a method began using synthetic oligonucleotides mimicking the expected products of an isothermal amplification assay and was successfully detected by qPCR by using the synthetic oligo as a primer for amplification in the reaction when paired.  The result indicates that qPCR can be used to detect DNA in a sequence-specific manner by linking its presence to qPCR with another downstream primer.   Some product oligos can be detected down to 10 nM concentration in the reactions and all were detected at 50 nM concentration, all making specific product in the qPCR by melt analysis.  Increasing the annealing temperature seemed to have varying effects on detection sensitivity, with some products being better amplified and most others being less well amplified.  Due to the potential for products to be of varying sizes it may be advantageous to have a lower annealing temperature to catch smaller product length oligos although this may decrease specificity.  A longer assay time was able to increase sensitvity, with all reactions containing 10 nM product oligo amplified successfully.  Detection of duplex products was tested, is robust, and did not interfere with the specific primer used for detection in the qPCR.  Using a mixture of forward and reverse primers to detect a duplex DNA products was successful in qPCR amplification.  
 
-> Synthetic oligonucleotides mimicking the expected products of an isothermal amplification assay were successfully detected by qPCR by using the synthetic oligo as a primer for amplification in the reaction	
-	when paired with another downstream primer
-> The result indicates that qPCR can be used to detect DNA in a sequence-specific manner by linking its presence to qPCR	
-> Some product oligos can be detected down to 10 nM concentration in the reactions and all were detected at 50 nM concentration, all making specific product in the qPCR by melt analysis
-	
-> Increasing the annealing temperature seemed to have varying effects on detection sensitivity, with some products being better amplified and most others being less well amplified
-> Due to the potential for products to be of varying sizes it may be advantageous to have a lower annealing temperature to catch smaller product length oligos although this may decrease specificity
-	
-> The longer assay time was able to increase sensitvity, with all reactions containing 10 nM product oligo amplified successfully
-> Isothermal amplification using the indicated assays was successful, there was no apparent difference between NTC and 10k cp gDNA reactions suggesting there may be little specific product generated
-> Note: primer 1's used too narrowly, redesign experiment so both NTC and +Target reactions are tested with both Fwd and Rev qPCR primers
-> Very high level of amplification in these reactions but little differece with reactions where synthetic product oligo was spiked in, likely that other products are interfering with qPCR detection
-> The qPCR amplification reaction are starting out at very high baseline, suggesting that is carry-over of a significant fraction of ssDNA from the isothermal reaciton that is not intended	
-> Detection of duplex products was still robust and did not interfere with the specific primer used for detection in the qPCR
-> Using a mixture of forward and reverse primers to detect a duplex DNA products was successful in qPCR amplification
-> Several of the qPCR primer combinations are suitable for further development with the 285.F/359.R combination the best by amplification speed and intensity
-> The gDNA may be too old and performance suffering
-> There was a clear difference in gDNA lots, as the older 7/17 lot performed ~10-fold lower in amplification than the newer 11/4 lot
-> Increasing the primer concentration to 1000 nM each gave the highest signal and second highest amplification speed
-> The assay performed nearly equivalently across the annealing tempeature range tested, with similar overall intensity and amplification speed
-> SPRI beads were capable of purifying the oligonucleotide, although the yield was quite low except when using the isopropanol-based 'Small RNA' protocol, which resulted in nearly full recovery of the oligo
-> Recovery of oligo products from beads still around 10%
-> Despite high baseline and presumabely non-specific amplification of carry-over products, there was a clear increase in amplification at cycles where purified product oligo came up from baseline
-> This indicates that product oligo can be detected from within the non-specific carry over reaction products
-> Detection of products possible after pulldown with SPRI beads after they have been spiked into isothermal amplification reactions, the incorporation of Uracil residues into the primers did not seem	
-	to significantly change the outcome of the subsequent detection by qPCR after cleanup
-> Fluorescence intensity change lower for these assays, may be due to aging reagents (plasmid DNA, enzymes)
-> Amplification still occurred and there were some slight differences between 10k cp and NTC fro uracil-containing primers, the addition of UDG eliminated amplification indicating the primers were destroyed	
-> The treatment of the samples with UDG appeared to significantly reduce the overall background in the downstream qPCR assays, however it was not specific for reactions containing Uracil-incorporated primers	
-	suggesting there is another mechanism by which the reduction in non-specific signal is happening
+Using mock NEAR assays after which specific product oligo was spiked in showed a very high level of amplification but little difference with reactions where synthetic product oligo was spiked in, likely that other products are interfering with qPCR detection.  The qPCR amplification reactions are start out at very high baseline, suggesting that carry-over of a significant fraction of ssDNA from the isothermal reaction that is not intended.	SPRI beads were capable of purifying the oligonucleotide product, although the yield was quite low except when using the isopropanol-based 'Small RNA' protocol, which resulted in about 10-20% of the oligo.  Despite high baseline and presumabely non-specific amplification of carry-over products, there was a clear increase in amplification at cycles where SPRI purified product oligo came up from baseline.  This indicates that product oligo can be detected from within the non-specific carry over reaction products after SPRI cleanup.  To improve detection of products after pulldown with SPRI beads after they have been spiked into isothermal amplification reactions, the incorporation of Uracil residues into the primers did not seem to significantly change the outcome of the subsequent detection by qPCR.  Amplification still occurred and there were some slight differences between 10k cp and NTC for uracil-containing primers, the addition of UDG eliminated amplification indicating the primers were destroyed.  The treatment of the samples with UDG appeared to significantly reduce the overall background in the downstream qPCR assays, however it was not specific for reactions containing Uracil-incorporated primers suggesting there is another mechanism by which the reduction in non-specific signal is happening.
 
 # qPCR of RNA
 > RNA samples amplified well, but 'no RT' controls show that there is significant DNA contamination in the RNA preps
@@ -54,6 +25,11 @@ In late October 2015, it was decided that detection of mastitis pathogens in dai
 > RNA concentration in reactions was too low, need to retest with more RNA
 > The total amount of RNA being isolated is too low, need to improve yields for downstream detection
 > Increasing the total amount of cells and also not vortexing Master Mix containing RT enzyme were the differences in this experiment, and the data indicate it was successful in isolation of RNA
+Several of the qPCR primer combinations are suitable for further development with the 285.F/359.R combination the best by amplification speed and intensity
+> The gDNA may be too old and performance suffering
+> There was a clear difference in gDNA lots, as the older 7/17 lot performed ~10-fold lower in amplification than the newer 11/4 lot
+> Increasing the primer concentration to 1000 nM each gave the highest signal and second highest amplification speed
+> The assay performed nearly equivalently across the annealing tempeature range tested, with similar overall intensity and amplification speed
 > There was very good reproducibility of within among RNA purifications, more variability among 'no RT' reactions, but this is likely non-specific amplification taking over
 > 16S RNA All assays showed good amplification down to 1000 cp gDNA, with several also detecting 100 cp easily.
 > Only the primer combination of 338.F/793.R performed poorly, showing too much non-specific amplification to continue using it
